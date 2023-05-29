@@ -35,11 +35,13 @@ function displayresults(results){
         const url = 'https://en.wikipedia.org/?curid=${result.pageid}';
         const time = results.timestamp.substring(0,10); 
         wordtosearch.insertAdjacentHTML(
-            'beforeend', `<div class="mb3"><h3>
-        <a href="${url}" class="" rel="noopener">${result.title}</a></h3>
-        <a href="${url}" class="text-secondary" rel="noopener">${time}</a>
-        <span class="text-secondary">${result.snippet}</span>
-        </div>`);
+            'beforeend', 
+            `<div class="mb3">
+            <h3>
+            <a href="${url}" class="" rel="noopener">${result.title}</a></h3>
+            <a href="${url}" class="text-secondary" rel="noopener">${time}</a>
+            <span class="text-secondary">${result.snippet}</span>
+            </div>`);
 
 });
 }

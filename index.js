@@ -38,7 +38,7 @@ function displayresult(results){
         const time = result.timestamp.substring(0,10); 
         wordtosearch.insertAdjacentHTML(
             'beforeend', 
-            `<div class="mb3">
+            `<div class="card mb3">
             <h3>
             <a href="${url}" class="" rel="noopener">${result.title}</a></h3>
             <a href="${url}" class="text-secondary" rel="noopener">${time}</a>

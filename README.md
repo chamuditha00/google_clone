@@ -1,4 +1,4 @@
-<h1>Google clone</h1
+<h1>Google clone</h1>
 
 This project is a simple web page that resembles a Google search page. It allows users to enter search queries and displays search results using the Wikipedia API.
 
